@@ -1,0 +1,28 @@
+{
+  "name": "cse341-google-oauth",
+  "version": "1.0.0",
+  "description": "App to create public and private stories",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app",
+    "dev": "cross-env NODE_ENV=development node --watch app"
+  },
+  "author": "Sebastián Iturralde",
+  "license": "MIT",
+  "dependencies": {
+    "connect-mongo": "^6.0.0",
+    "dotenv": "^18.0.2",
+    "express": "^5.2.1",
+    "express-handlebars": "^8.0.3",
+    "express-session": "^1.19.0",
+    "method-override": "^3.0.0",
+    "moment": "^2.31.0",
+    "mongoose": "^9.10.1",
+    "morgan": "^1.12.1",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0"
+  }
+}
